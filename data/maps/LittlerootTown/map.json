@@ -151,8 +151,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 10,
-      "y": 1,
+      "x": 6,
+      "y": 2,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "0",
@@ -160,8 +160,8 @@
     },
     {
       "type": "trigger",
-      "x": 11,
-      "y": 1,
+      "x": 7,
+      "y": 2,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "0",
@@ -169,8 +169,8 @@
     },
     {
       "type": "trigger",
-      "x": 11,
-      "y": 1,
+      "x": 7,
+      "y": 2,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "1",
@@ -214,8 +214,8 @@
     },
     {
       "type": "trigger",
-      "x": 10,
-      "y": 2,
+      "x": 6,
+      "y": 3,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "3",
@@ -223,22 +223,40 @@
     },
     {
       "type": "trigger",
-      "x": 11,
-      "y": 2,
+      "x": 7,
+      "y": 3,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "3",
       "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 1,
+      "elevation": 0,
+      "var": "LITTLEROOT_STATE",
+      "var_value": "0",
+      "script": "LittlerootTown_Trigger_BlockPath"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 1,
+      "elevation": 0,
+      "var": "LITTLEROOT_STATE",
+      "var_value": "0",
+      "script": "LittlerootTown_Trigger_BlockPath"
     }
   ],
   "bg_events": [
     {
       "type": "sign",
-      "x": 15,
-      "y": 13,
+      "x": 26,
+      "y": 10,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LittlerootTown_EventScript_TownSign"
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "LittlerootTown_EventScript_RootGuySign"
     },
     {
       "type": "sign",
